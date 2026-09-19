@@ -33,8 +33,9 @@ export default function Hero() {
           muted
           loop
           playsInline
-          preload="metadata"
+          preload="auto"
           aria-hidden="true"
+          crossOrigin="anonymous"
         >
           <source src={brand.heroVideo} type="video/mp4" />
         </video>

@@ -1,5 +1,4 @@
 import logo from '../assets/logo.png';
-import heroPoster from '../assets/hero-poster_video.mp4';
 import founderPortrait from '../assets/founder-portrait.jpg';
 import iconBag from '../assets/icons/bag.svg';
 import iconSearch from '../assets/icons/search.svg';
@@ -27,7 +26,7 @@ import prodBalaji from '../assets/products/brass-balaji-murti.jpg';
 export const brand = {
   name: 'Vastutathastu',
   logo,
-  heroPoster,
+  heroPoster: '',
   // Drop the original hero video at /public/hero.mp4 — the poster frame is shown until it exists.
   heroVideo: '/hero.mp4',
 };
